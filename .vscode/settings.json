@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "rwip.h": "c",
+        "app.h": "c",
+        "dev.h": "c",
+        "app_usart.h": "c",
+        "app_gpio.h": "c",
+        "app_ble.h": "c",
+        "drv_uart.h": "c",
+        "bsp_frame.h": "c",
+        "bsp_crc.h": "c",
+        "bsp.h": "c",
+        "rdtss_task.h": "c",
+        "bsp_relay.h": "c"
+    }
+}

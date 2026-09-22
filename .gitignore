@@ -1,0 +1,58 @@
+# -----------------------------------------------------------------------------
+# Keil MDK-ARM build outputs
+# -----------------------------------------------------------------------------
+applications/MDK-ARM/Objects/
+applications/MDK-ARM/Listings/
+applications/MDK-ARM/DebugConfig/
+applications/MDK-ARM/RTE/
+applications/MDK-ARM/bin/
+applications/MDK-ARM/EventRecorderStub.scvd
+
+# Keil user-specific and generated files
+*.uvguix.*
+*.uvoptx
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.map
+*.lnp
+*.build_log.htm
+*.scvd
+*.iex
+*.i
+*.lst
+
+# -----------------------------------------------------------------------------
+# VS Code local state
+# -----------------------------------------------------------------------------
+.vscode/ipch/
+.vscode/.browse.VC.db*
+.vscode/*.log
+
+# -----------------------------------------------------------------------------
+# Patch and temporary files
+# -----------------------------------------------------------------------------
+*.orig
+*.rej
+*.bak
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# -----------------------------------------------------------------------------
+# Debugger output
+# -----------------------------------------------------------------------------
+JLinkLog.txt
+JLinkSettings.ini
+RTE_Components.h
+
+# -----------------------------------------------------------------------------
+# Operating system files
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
