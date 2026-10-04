@@ -77,7 +77,7 @@ static void App_COMMAND_HandleGetTime(void)
     response_data[0] = (uint8_t)(remaining_minutes >> 8U);
     response_data[1] = (uint8_t)(remaining_minutes & 0xFFU);
     App_COMMAND_SendResponse(APP_COMMAND_FUNCTION_GET_TIME_ACK, response_data, sizeof(response_data));
-    App_TIMER_Start();
+    //App_TIMER_Start();
 }
 
 void App_COMMAND_Init(void)
