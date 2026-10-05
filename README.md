@@ -51,8 +51,7 @@ applications/
 │   │   └── Int_KEY.*
 │   ├── Dri/                   底层驱动
 │   │   ├── Dri_TICK.*         SysTick 1 ms 时基
-│   │   ├── Dri_SoftI2C.*      软件 I2C
-│   │   └── Dri_UART.*         USART2 DMA 驱动
+│   │   └── Dri_SoftI2C.*      软件 I2C
 │   └── Com/
 │       └── Com_CRC.*          CRC32 计算
 ├── app/                       厂商 BLE 应用模板
@@ -186,8 +185,6 @@ Stop bits  = 1
 ```
 
 日志等级在 `applications/app/inc/app_user_config.h` 中配置。若不需要调试串口，可将 `NS_LOG_LPUART_ENABLE` 设置为 `0`。
-
-`Dri_UART.c` 提供了 USART2 + DMA 收发驱动，但当前应用层没有调用 `Dri_UART_Init()`。
 
 ## 开发注意事项
 

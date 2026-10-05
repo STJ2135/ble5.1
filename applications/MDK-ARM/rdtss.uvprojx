@@ -949,7 +949,6 @@
           <GroupName>USER_DRI</GroupName>
           <Files>
             <File><FileName>Dri_TICK.c</FileName><FileType>1</FileType><FilePath>..\User\Dri\Dri_TICK.c</FilePath></File>
-            <File><FileName>Dri_UART.c</FileName><FileType>1</FileType><FilePath>..\User\Dri\Dri_UART.c</FilePath></File>
             <File><FileName>Dri_SoftI2C.c</FileName><FileType>1</FileType><FilePath>..\User\Dri\Dri_SoftI2C.c</FilePath></File>
           </Files>
         </Group>

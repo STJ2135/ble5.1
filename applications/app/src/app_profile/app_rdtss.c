@@ -66,18 +66,18 @@ const struct attm_desc_128 app_rdts_att_db[RDTSS_IDX_NB] =
         [0] = {{0x00, 0x28}, PERM(RD, ENABLE), 0, 0},
 
         /* Characteristic Declaration */
-        [1] = {{0x03, 0x28}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), 0, 0},
+        [1] = {{0x03, 0x28}, PERM(RD, ENABLE), 0, 0},
         /* Characteristic Value */
         [2] = {ATT_CHAR_AM_SPEED_WRITE_128, PERM(WRITE_COMMAND, ENABLE), PERM(RI, ENABLE) | PERM_VAL(UUID_LEN, 0x02), 0x200},
-        /* Client Characteristic Configuration Descriptor */
+        /* Characteristic User Description Descriptor */
         [3] = {{0x01, 0x29}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), PERM(RI, ENABLE), 20},
 
         /* Characteristic Declaration */
-        [4] = {{0x03, 0x28}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), 0, 0},
+        [4] = {{0x03, 0x28}, PERM(RD, ENABLE), 0, 0},
         /* Characteristic Value */
         [5] = {ATT_CHAR_AM_SPEED_NTF_128, PERM(NTF, ENABLE), PERM(RI, ENABLE) | PERM_VAL(UUID_LEN, 0x02), 0x200},
         /* Client Characteristic Configuration Descriptor */
-        [6] = {{0x02, 0x29}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), PERM(RI, ENABLE), 20},
+        [6] = {{0x02, 0x29}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), PERM(RI, ENABLE), 2},
 
         /* Characteristic Declaration */
         //[10] = {{0x03, 0x28}, PERM(RD, ENABLE) | PERM(WRITE_REQ, ENABLE), 0, 0},
